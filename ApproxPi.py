@@ -41,6 +41,7 @@ def main():
 
   elapsedTime = end - start
   elapsedTime = round(elapsedTime, 5)
+  print(approxPi)
   print("It took", elapsedTime, "seconds")
 
 if __name__ == '__main__':
